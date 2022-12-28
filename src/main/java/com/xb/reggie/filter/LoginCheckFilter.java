@@ -42,7 +42,11 @@ public class LoginCheckFilter implements Filter {
                 "/user/login",       //用户登录
                 "/common/**",       //公共
                 "/backend/**",      //后台静态页面
-                "/front/**"         //用户静态页面
+                "/front/**",         //用户静态页面
+                "/doc.html",
+                "/webjars/**",
+                "/swagger-resources",
+                "/v2/api-docs"
         };
         //2.判断本次请求是否需要处理
         boolean res = checkUrls(requestURI, urls);
