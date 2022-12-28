@@ -60,3 +60,4 @@ mybatis-plus:
 #配置图片保存地址
 reggie:
   path: D://img/reggie/
+#  path: /usr/local/img/
